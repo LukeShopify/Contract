@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Startup Name | Connect Contractors and Subcontractors</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">Welcome to [Your Startup Name]</h1>
+            <p class="mt-2">Connecting Contractors with Qualified Subcontractors</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8">
+        <section class="text-center mb-10">
+            <h2 class="text-2xl font-semibold mb-4">Why Choose Us?</h2>
+            <p class="mb-6">We provide a platform that streamlines your hiring process, ensuring quality and efficiency.</p>
+            <a href="#signup" class="bg-blue-600 text-white py-2 px-4 rounded">Get Started</a>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="font-bold text-lg">Easy Job Postings</h3>
+                <p>Post your jobs with just a few clicks and reach the right subcontractors.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="font-bold text-lg">Transparent Bidding</h3>
+                <p>Receive bids from qualified subcontractors and choose the best fit for your project.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="font-bold text-lg">Secure Payment Processing</h3>
+                <p>Our platform ensures secure transactions for peace of mind.</p>
+            </div>
+        </section>
+    </main>
+
+    <section id="signup" class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-xl font-bold">Join Our Community</h2>
+            <p class="mb-4">Sign up today to start connecting with top subcontractors.</p>
+            <a href="register.html" class="bg-white text-blue-600 py-2 px-4 rounded">Register Now</a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 [Your Startup Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
